@@ -34,6 +34,11 @@
                             </g>
                         </svg>
                     </div>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <ul class="nav-list">
                         <li><a href="./index.html">Home</a></li>
                         <li class="dropdown"><a class="dropbtn">Products</a>
@@ -121,46 +126,31 @@
             </div>
         </section>
     </header>
-    <footer>
-        <div class="contactbg">
-            <div class="details">
-                <div class="contactinfo">
-                    <div class="location">
-                        <h2>We are located at</h2>
-                        <ul>
-                            <li><img src="./images/Indian_Flag.png" style="height: 21px; width: 21px;">India
-                            </li>
-                            <li><img src="./images/uk.jpg" style="height: 21px; width: 21px;">United Kingdom
-                            </li>
-                            <li><img src="./images/netherlands.png" style="height: 21px; width: 21px;">Netherlands
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="number">
-                        <h3>Contact</h3>
-                        <p>talkto@steam-a.com</p>
-                        <ul>
-                            <li><img src="./images/Indian_Flag.png" style="height: 21px; width: 21px;">+91
-                                99444 33392</li>
-                            <li><img src="./images/uk.jpg" style="height: 21px; width: 21px;">+44 74034 56793
-                            </li>
-                            <li><img src="./images/netherlands.png" style="height: 21px; width: 21px;">+31
-                                687619917</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="formdetails">
-                <form class="forminfo">
-                    <input type="text" name="Fullname" placeholder="Full name" required><br>
-                    <input type="email" name="email" placeholder="Email ID" required><br>
-                    <input type="tel" name="contact" placeholder="Contact number (Optional)"><br>
-                    <textarea name="message" placeholder="What do you like to know about the product?"
-                        required></textarea><br>
-                    <button type="submit" style="width: 100%;">Submit</button>
-                </form>
-            </div>
+    <section class="container">
+        <div class="contact-info">
+            <h3>We are located at</h3>
+            <p><img src="./images/network/ind.png" alt="India"> India</p>
+            <p><img src="./images/network/uk.png" alt="India"> United Kingdom</p>
+            <p><img src="./images/network/netherlands.png" alt="India"> Netherlands</p>
+
+            <h3>Contact</h3>
+            <p>Email: talkto@steam-a.com</p>
+            <p><img src="./images/network/ind.png" alt="India"> +91 99444 33392</p>
+            <p><img src="./images/network/uk.png" alt="India"> +44 74034 56793</p>
+            <p><img src="./images/network/netherlands.png" alt="India"> +31 687619917</p>
         </div>
+        <div class="formdetails">
+            <form class="forminfo">
+                <input type="text" name="Fullname" placeholder="Full name" required><br>
+                <input type="email" name="email" placeholder="Email ID" required><br>
+                <input type="tel" name="contact" placeholder="Contact number (Optional)"><br>
+                <textarea name="message" placeholder="What do you like to know about the product?"
+                    required></textarea><br>
+                <button type="submit" style="width: 100%;">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
         <div class="foot">
             <div class="det">
                 <div class="one">
@@ -205,5 +195,12 @@
         </div>
     </footer>
 </body>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navList = document.querySelector(".nav-list");
 
+    hamburger.addEventListener("click", () => {
+        navList.classList.toggle("active");
+    });
+</script>
 </html>
