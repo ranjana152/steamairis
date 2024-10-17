@@ -402,10 +402,10 @@ h1 {
     }
     .feature-item{
       margin: auto;
-      padding: 0 10px;
+      padding: 30px 30px;
     }
     .icon{
-      margin-top: -65px;
+      margin-top: -55px;
     }
     .pro-des h4{
       text-align: left;
@@ -459,7 +459,7 @@ h1 {
 }
 
 .font h4 {
-    font-size: 18px;
+    font-size: 28px;
     font-family: "IBM Plex Sans",sans-serif;
     font-family: sans-serif;
     color: #ffffff;
@@ -468,8 +468,7 @@ h1 {
 }
 
 .font p {
-    font-size: 24px;
-    font-family: sans-serif;
+    font-size: 22px;
     margin-bottom: 15px;
     font-family: "IBM Plex Sans",sans-serif;
 }
@@ -548,7 +547,7 @@ h1 {
     }
     .iris-item{
       margin: auto;
-      padding: 0 10px;
+      padding: 30px 30px;
     }
   }
   .contact-info {
