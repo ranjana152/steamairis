@@ -533,6 +533,92 @@ h1 {
     border-radius: 20px;
     opacity: 1;
 } 
+.indexani{
+  background-color: #051118;
+  height: fit-content;
+  position: relative;
+  overflow-x: hidden;
+  margin-top: -400px;
+}
+.indexani hr{
+  border: 2px solid rgb(255, 255, 255);
+}
+.indexani .background{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  gap: 10px;
+  top: 110px;
+  
+}
+.background .charge img{
+  width: 50px;
+  height: 90px;
+  z-index: 10;
+}
+.background .pin img{
+  width: 90px;
+  height: 80px;
+  margin-top: 10px;
+  z-index: 10;
+}
+.background .iris2 img{
+  width: 50px;
+  height: 89px;
+  z-index: 10;
+
+}
+.background .christ img{
+  width: 114px;
+  height: 114px; 
+  z-index: 10; 
+  
+}
+.background .build img{
+  width: 90px;
+  height: 90px;
+  z-index: 10;
+}
+.background .buil img{
+  width: 111px;
+  height: 111px; 
+  margin-top: -10px;
+  z-index: 10;
+ 
+}
+.background .tree img{
+  width: 111px;
+  height: 111px;
+  margin-top: -10px;
+  z-index: 10;
+  
+}
+.indexani .foreground{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  top: 40%;
+}
+.foreground .car img{
+  width: 186px;
+  height: 40px;
+  padding-top: 40px;
+  z-index: 1000;
+}
+.foreground .truck img{
+  width: 314px;
+  height: 67px;
+  padding-top: 5px;
+  z-index: 1000;
+}
+.foreground .bus img{
+  width: 279px;
+  height: 56px;
+  padding-top: 15px;
+  z-index: 1000;
+}
 .container {
     background-color: #051118;
     height: fit-content;
