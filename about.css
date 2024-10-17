@@ -182,6 +182,7 @@
     right: 0;
     width: 100%;
     text-align: left;
+      border-radius: 20px;
   }
 
   .nav-list li {
@@ -223,6 +224,7 @@
   right: 0;
   width: 100%;
   text-align: left;
+      border-radius: 20px;
 }
 .nav-list li {
   margin: 20px 0;
