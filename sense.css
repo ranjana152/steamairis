@@ -95,14 +95,26 @@
   .dropdown:hover .dropbtn {
       color: rgb(23, 250, 255);
   }
-  /* Request Demo button styles */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: left;
+      align-items: flex-start;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color:rgb(255, 255, 255);
+    backdrop-filter: blur(50px);
+    margin: 3px 0;
+  }
   .nav-list li .request-demo {
     background-color: #FFFFFF80;
     color: #fff;
-    /* Button background */
     border-radius: 20px;
     padding: 10px 10px;
-    /* Text color inside button */
     white-space: nowrap;
     transition: 1.1s ease;
     text-decoration: none;
@@ -111,13 +123,9 @@
   .nav-list li .request-demo .uparrow {
     display: inline-block;
     opacity: 0;
-    /* Hide the arrow initially */
     transform: rotate(0);
-    /* No rotation initially */
     transition: opacity 0.3s ease, transform 0.3s ease;
-    /* Smooth transition for both properties */
     margin-left: 5px;
-    /* Add space between text and arrow */
   }
   
   .nav-list li .request-demo:hover {
@@ -126,12 +134,89 @@
     transform: scale(1.1);
     opacity: 1;
     transform: rotate(45deg);
-    /* Slightly darker hover for the button */
   }
   
   .nav-list li .request-demo:hover .uparrow {
     opacity: 1;
     transform: rotate(45deg);
+  }
+  @media (max-width: 768px) {
+    .nav-list {
+      display: none;
+    }
+  
+    .navbar {
+      margin-left: 10px;
+      padding-left: 100px;
+      justify-content: center;
+      align-items: center;
+      width: 75%;
+    }
+    .logo svg{
+      margin-left: -12px;
+      padding: 6px;
+      width: 40%;
+      margin-left: -130px;
+      
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  
+    .nav-list.active {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.8); 
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .nav-list li {
+      margin: 20px 0;
+    }
+    .scaling h1{
+      text-align: center;
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 480px) {
+  .nav-list {
+    display: none;
+  }
+  
+  .navbar {
+    margin: 0;
+    padding-left: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+  }
+  .logo svg{
+    margin: 0;
+    padding: 6px;
+    width: 40%;
+    margin-left: -130px;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .nav-list.active {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8); 
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-list li {
+    margin: 20px 0;
+  }
   }
   .details{
     display: flex;
@@ -150,6 +235,12 @@
         transform: scale(1);
       }
     }
+    @media screen and (max-width: 768px) {
+    .scaling h1 {
+      text-align: center;
+      font-size: 16px;
+    }
+   }
   .details img{
     margin-top: 200px;
     width: 263px;
@@ -335,7 +426,6 @@
   padding: 20px;
   flex: 1;
     min-width: 300px;
-    padding-left: 50px;
   }
   .formdetails.forminfo {
   flex-basis: 60%;
@@ -508,6 +598,11 @@
   }
   } 
   @media (max-width: 480px) {
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+  } 
+  @media (max-width: 768px) {
     .feature-grid {
       grid-template-columns: 1fr;
     }
