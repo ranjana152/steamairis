@@ -174,8 +174,7 @@
 
   .nav-list.active {
     display: flex;
-    flex-direction: column;
-    background-color: gray; 
+    flex-direction: column; 
     backdrop-filter: blur(50px);
     position: absolute;
     top: 60px;
@@ -218,14 +217,13 @@
 .nav-list.active {
   display: flex;
   flex-direction: column;
-  background-color:gray;
   backdrop-filter: blur(50px); 
   position: absolute;
   top: 60px;
   right: 0;
   width: 100%;
   text-align: left;
-      border-radius: 25%;
+      border-radius: 20px;
 }
 .nav-list li {
   margin: 20px 0;

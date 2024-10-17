@@ -167,7 +167,6 @@
     .nav-list.active {
       display: flex;
       flex-direction: column;
-      background-color: gray;
     backdrop-filter: blur(50px); ; 
       position: absolute;
       top: 60px;
@@ -209,7 +208,6 @@
   .nav-list.active {
     display: flex;
     flex-direction: column;
-    background-color: gray;
     backdrop-filter: blur(50px); 
     position: absolute;
     top: 60px;

@@ -449,7 +449,6 @@
   .nav-list.active {
     display: flex;
     flex-direction: column;
-    background-color: gray;
     backdrop-filter: blur(50px); 
     position: absolute;
     top: 60px;
@@ -491,7 +490,6 @@
 .nav-list.active {
   display: flex;
   flex-direction: column;
-  background-color: gray; 
   backdrop-filter: blur(50px); 
   position: absolute;
   top: 60px;
@@ -549,7 +547,9 @@
   h1 {
       font-size: 14px;
   }
-
+  p{
+    text-align: justify;
+  }
   .feature-item {
       padding-bottom: 300px;
       margin: 10px;
