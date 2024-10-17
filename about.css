@@ -174,8 +174,8 @@
 
   .nav-list.active {
     display: flex;
-    flex-direction: column; 
-    backdrop-filter: blur(50px);
+    flex-direction: column;
+    backdrop-filter: blur(50px); 
     position: absolute;
     top: 60px;
     right: 0;
@@ -216,7 +216,7 @@
 .nav-list.active {
   display: flex;
   flex-direction: column;
-  backdrop-filter: blur(50px); 
+    backdrop-filter: blur(50px);  
   position: absolute;
   top: 60px;
   right: 0;
@@ -228,6 +228,24 @@
   margin: 20px 0;
 }
 }
+
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.scaling h1, h3, .request-demo{
+  animation: scaleUp 1.0s ease-in-out;
+}
+  @keyframes scaleUp {
+    0%{
+      transform: scale(0);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
 
 .details{
   display: flex;
