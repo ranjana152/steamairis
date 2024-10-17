@@ -164,7 +164,8 @@
   .nav-list.active {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: gray;
+    backdrop-filter: blur(50px); 
     position: absolute;
     top: 60px;
     right: 0;
@@ -204,7 +205,8 @@
 .nav-list.active {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.8); 
+  background-color: gray;
+    backdrop-filter: blur(50px);  
   position: absolute;
   top: 60px;
   right: 0;

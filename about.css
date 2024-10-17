@@ -175,12 +175,13 @@
   .nav-list.active {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: gray; 
+    backdrop-filter: blur(50px);
     position: absolute;
     top: 60px;
     right: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
 
   .nav-list li {
@@ -215,12 +216,13 @@
 .nav-list.active {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.8); 
+  background-color:gray;
+  backdrop-filter: blur(50px); 
   position: absolute;
   top: 60px;
   right: 0;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 .nav-list li {
   margin: 20px 0;
