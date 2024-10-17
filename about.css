@@ -200,7 +200,6 @@
 .navbar {
   margin: 0;
   padding-left: 100px;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 75%;
