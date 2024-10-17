@@ -45,6 +45,7 @@
 
 .nav-list li {
     margin-left: 2px;
+    font-family: "IBM Plex Sans",sans-serif;
 }
 
 .nav-list li a {
@@ -110,6 +111,7 @@
   }
 .nav-list li .request-demo {
     background-color: #FFFFFF80;
+    font-family: "IBM Plex Sans",sans-serif;
     color: #fff;
     border-radius: 20px;
     padding: 10px 10px;
@@ -233,6 +235,7 @@
 .scaling h1,
 .request-demo {
     animation: scaleUp 1.0s ease-in-out;
+    font-family: "IBM Plex Sans",sans-serif;
 }
 
 @keyframes scaleUp {
@@ -247,8 +250,9 @@
 
 .details h1 {
     color: #fff;
-    font-size: 46px;
+    font-size: 34px;
     margin-top: 200px;
+    font-family: "IBM Plex Sans",sans-serif;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -297,6 +301,7 @@
 .pro-des h4 {
     color: #fff;
     font-size: 20px;
+    font-family: "IBM Plex Sans",sans-serif;
     padding: 10px 100px;
     padding-top: 100px;
 }
@@ -308,6 +313,7 @@
 .iris-echo h3 {
     font-size: 32px;
     color: rgb(23, 250, 255);
+    font-family: "IBM Plex Sans",sans-serif;
     padding: 10px 100px;
 }
 
@@ -319,6 +325,7 @@
 .echo-des p {
     color: #fff;
     font-size: 16px;
+    font-family: "IBM Plex Sans",sans-serif;
     padding: 10px 20px;
     line-height: 2.0rem;
     text-align: justify;
@@ -332,6 +339,7 @@
 
 h1 {
     font-size: 32px;
+    font-family: "IBM Plex Sans",sans-serif;
     margin-bottom: 30px;
     color: rgb(23, 250, 255);
 }
@@ -373,6 +381,7 @@ h1 {
 }
 
 .feature-item .pstyle {
+  font-family: "IBM Plex Sans",sans-serif;
     font-size: 18px;
     color: rgb(23, 250, 255);
     padding: 10px;
@@ -381,6 +390,7 @@ h1 {
 
 .feature-item p {
     font-size: 18px;
+    font-family: "IBM Plex Sans",sans-serif;
     padding: 10px;
     color: #fff;
     line-height: 1.6;
@@ -395,7 +405,7 @@ h1 {
       padding: 0 10px;
     }
     .icon{
-      margin-top: -70px;
+      margin-top: -65px;
     }
     .pro-des h4{
       text-align: left;
@@ -421,6 +431,7 @@ h1 {
 
 .message h1 {
     margin-top: 100px;
+    font-family: "IBM Plex Sans",sans-serif;
     font-size: 24px;
     color: rgb(255, 255, 255);
 }
@@ -449,6 +460,7 @@ h1 {
 
 .font h4 {
     font-size: 18px;
+    font-family: "IBM Plex Sans",sans-serif;
     font-family: sans-serif;
     color: #ffffff;
     margin-bottom: 20px;
@@ -459,6 +471,7 @@ h1 {
     font-size: 24px;
     font-family: sans-serif;
     margin-bottom: 15px;
+    font-family: "IBM Plex Sans",sans-serif;
 }
 .tiris {
     background-color: #051118;
@@ -496,12 +509,14 @@ h1 {
     font-size: 18px;
     color: #fff;
     line-height: 1.6;
+    font-family: "IBM Plex Sans",sans-serif;
     margin-inline-end: auto;
   
   } 
   .knowmore a {
     display: none;
     box-shadow: 0px 1px 1px rgb(23, 250, 255);
+    font-family: "IBM Plex Sans",sans-serif;
 }
 .iris-item:hover {
     transform: scale(1.06);
@@ -545,11 +560,13 @@ h1 {
   .contact-info h3{
     color: rgb(23, 250, 255);
     font-size: 24px;
+    font-family: "IBM Plex Sans",sans-serif;
     margin-bottom: 20px;
   }
   .contact-info p{
     color: rgb(255, 255, 255);
     font-size: 16px;
+    font-family: "IBM Plex Sans",sans-serif;
     margin-bottom: 20px;
   }
   .contact-info img{
@@ -625,6 +642,7 @@ h1 {
   padding: 10px;
   height: 47px;
   width: 100%;
+  font-family: "IBM Plex Sans",sans-serif;
   margin-bottom: 30px;
   border: 1px solid rgb(23, 250, 255);
   border-radius: 5px;
@@ -656,13 +674,13 @@ h1 {
   .one p {
   color: rgb(255, 255, 255);
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: "IBM Plex Sans",sans-serif;
   padding: 10px;
   }
   
   .one a {
   color: gray;
-  font-family: sans-serif;
+  font-family: "IBM Plex Sans",sans-serif;
   font-size: 14px;
   padding: 10px;
   }
@@ -675,6 +693,7 @@ h1 {
   .framer p {
   color: rgb(255, 255, 255);
   text-align: center;
+  font-family: "IBM Plex Sans",sans-serif;
   }
   
   .framer hr {
@@ -690,6 +709,7 @@ h1 {
   padding-top: 10px;
   text-align: center;
   padding-bottom: 30px;
+  font-family: "IBM Plex Sans",sans-serif;
   }  
   
   @media (max-width: 768px) {
