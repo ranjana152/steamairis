@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electric Vehicle Charging Ecosystem Software Suite | Iris | Steam-A</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="icon" href="https://framerusercontent.com/images/19VLk2C1p0wO7nQshH0NHhosvk.png">
     <link rel="stylesheet" href="./sense.css">
 </head>
@@ -59,6 +60,9 @@
                 <div class="request-demo">
                     <a href="#">Request Demo<span class="uparrow">&uarr;</span></a>
                 </div>
+                <i class="fas fa-globe" onclick="triggerGoogleTranslate()" style="cursor: pointer;color: #fff; font-size: 28px; padding: 20px;"></i>
+    <div id="google_translate_element" style="display: none;" >
+    </div>
             </div>
         </div>
     </header>
@@ -169,6 +173,23 @@
         </div>
     </div>
     </footer>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' },
+                'google_translate_element'
+            );
+        }
+        function triggerGoogleTranslate() {
+            var googleTranslateButton = document.getElementById("google_translate_element");
+            googleTranslateButton.style.display="block"
+            if (googleTranslateButton) {
+                googleTranslateButton.click();
+            }
+        } 
+    </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
     <script>
         const hamburger = document.querySelector(".hamburger");
         const navList = document.querySelector(".nav-list");
