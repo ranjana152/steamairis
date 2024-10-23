@@ -189,9 +189,11 @@
         }
         function triggerGoogleTranslate() {
             var googleTranslateButton = document.getElementById("google_translate_element");
-            googleTranslateButton.style.display="block"
-            if (googleTranslateButton) {
-                googleTranslateButton.click();
+            if(googleTranslateButton.style.display==="none"){
+                googleTranslateButton.style.display="block"
+            }
+            else{
+                googleTranslateButton.style.display="none" 
             }
         } 
     </script>
